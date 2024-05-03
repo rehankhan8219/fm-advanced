@@ -6,12 +6,12 @@ return [
     'BASE_URL' => 'http://localhost',
 
     // Please set it blank if your project is on root or enter your sub directory
-    'SUB_DIR' => 'jolly', 
+    'SUB_DIR' => 'fm-advanced', 
 
     // Set application stage (local || production)
     'STAGE' => 'local',
 
-    'TITLE' => 'Jolly - A tiny PHP Framework',
+    'TITLE' => 'FM',
 
     'AUTHOR' => [
         'NAME' => 'Mohammad Ali Manknojiya'

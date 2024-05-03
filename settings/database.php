@@ -5,7 +5,7 @@ return [
     'enable' => true,
 
     // Database details [ Key of this set is database name ]
-    'jolly-dev' => [
+    'fm_advanced' => [
         'host' => 'localhost',
         'username' => 'root',
         'password' => '',

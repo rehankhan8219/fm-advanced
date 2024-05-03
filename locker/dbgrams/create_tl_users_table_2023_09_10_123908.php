@@ -16,8 +16,12 @@ return new class
 
 			$table->string('first_name');
 			$table->string('last_name');
+			$table->string('email')->nullable(false);
+			$table->string('password')->nullable(false);
 			$table->integer('age');
 			$table->text('address');
+			$table->unsignedBigInteger('type')->default(2);
+			$table->integer('status')->default(1);
 			$table->timestamps();
 			$table->trashMask();
 
