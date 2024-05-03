@@ -14,6 +14,7 @@
                 </div>
                 <div class="footer">
                     <span>- {{ trans('built_n_managing_by') }} {{ setting('app.author.name', 'Mohammad Ali Manknojiya [ manknojiya121@gmail.com ]') }}</span>
+                    
                 </div>
             </div>
         </div>
