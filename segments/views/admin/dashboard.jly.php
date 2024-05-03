@@ -538,7 +538,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center">
                                                                 <div class="symbol symbol-50px me-3">
-                                                                    <img src="assets/media/avatars/300-3.jpg" class="" alt="" />
+                                                                    <img src="{{ asset('assets/media/avatars/300-3.jpg') }}" class="" alt="" />
                                                                 </div>
                                                                 <div class="d-flex justify-content-start flex-column">
                                                                     <a href="../dist/pages/user-profile/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Guy Hawkins</a>
@@ -562,7 +562,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center">
                                                                 <div class="symbol symbol-50px me-3">
-                                                                    <img src="assets/media/avatars/300-2.jpg" class="" alt="" />
+                                                                    <img src="{{ asset('assets/media/avatars/300-2.jpg') }}" class="" alt="" />
                                                                 </div>
                                                                 <div class="d-flex justify-content-start flex-column">
                                                                     <a href="../dist/pages/user-profile/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Jane Cooper</a>
@@ -586,7 +586,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center">
                                                                 <div class="symbol symbol-50px me-3">
-                                                                    <img src="assets/media/avatars/300-9.jpg" class="" alt="" />
+                                                                    <img src="{{ asset('assets/media/avatars/300-9.jpg') }}" class="" alt="" />
                                                                 </div>
                                                                 <div class="d-flex justify-content-start flex-column">
                                                                     <a href="../dist/pages/user-profile/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Jacob Jones</a>
@@ -610,7 +610,7 @@
                                                         <td>
                                                             <div class="d-flex align-items-center">
                                                                 <div class="symbol symbol-50px me-3">
-                                                                    <img src="assets/media/avatars/300-7.jpg" class="" alt="" />
+                                                                    <img src="{{ asset('assets/media/avatars/300-7.jpg') }} " class="" alt="" />
                                                                 </div>
                                                                 <div class="d-flex justify-content-start flex-column">
                                                                     <a href="../dist/pages/user-profile/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Cody Fishers</a>
