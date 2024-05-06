@@ -12,8 +12,9 @@
 				<!--begin::Header-->
 				<div class="d-flex flex-row-fluid flex-column text-center p-5 p-lg-10 pt-lg-20">
 					<!--begin::Logo-->
-					<a href="../dist/index.html" class="py-2 py-lg-20">
-						<img alt="Logo" src="{{ asset('assets/media/logos/mail.svg') }}" class="h-40px h-lg-50px" />
+					<a href="javascript:void(0)" class="py-2 py-lg-20">
+						<!-- <img alt="Logo" src="{{ asset('assets/media/logos/mail.svg') }}" class="h-40px h-lg-50px" /> -->
+
 					</a>
 					<!--end::Logo-->
 					<!--begin::Title-->
@@ -26,7 +27,7 @@
 				</div>
 				<!--end::Header-->
 				<!--begin::Illustration-->
-				<div class="d-none d-lg-block d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px" style="background-image: url(assets/media/illustrations/sketchy-1/17.png)"></div>
+				<div class="d-none d-lg-block d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px" style="background-image: url({{ asset('assets/media/illustrations/sketchy-1/17.png')  }})"></div>
 				<!--end::Illustration-->
 			</div>
 			<!--end::Wrapper-->
@@ -51,7 +52,7 @@
 							<!--end::Title-->
 							<!--begin::Link-->
 							<div class="text-gray-400 fw-semibold fs-4">New Here?
-							<a href="../dist/authentication/sign-up/basic.html" class="link-primary fw-bold">Create an Account</a></div>
+							<a href="" class="link-primary fw-bold">Create an Account</a></div>
 							<!--end::Link-->
 						</div>
 						<!--begin::Heading-->

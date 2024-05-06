@@ -31,9 +31,9 @@ Class Auth
     {
         if (auth()->check()) {
             if (auth()->user()->isAdmin())
-                return route('app.admin.dashboard');
+                return route('admin.dashboard');
             else
-                return route('app.user.dashboard');
+                return route('user.dashboard');
         }
 
         return route('auth.login');
