@@ -38,8 +38,12 @@
 			<div class="d-flex flex-center flex-column flex-column-fluid">
 				<!--begin::Wrapper-->
 				<div class="w-lg-500px p-10 p-lg-15 mx-auto">
+
+					@include('partials/alerts')
+					
 					<!--begin::Form-->
-					<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" data-kt-redirect-url="../dist/index.html" action="#">
+					<form class="form w-100" id="kt_sign_in_form" method="post" action="{{ route('auth.authenticate') }}">
+						{{ prevent_csrf_field() }}
 						<!--begin::Heading-->
 						<div class="text-center mb-10">
 							<!--begin::Title-->
@@ -69,7 +73,7 @@
 								<label class="form-label fw-bold text-dark fs-6 mb-0">Password</label>
 								<!--end::Label-->
 								<!--begin::Link-->
-								<a href="../dist/authentication/sign-in/password-reset.html" class="link-primary fs-6 fw-bold">Forgot Password ?</a>
+								<!-- <a href="../dist/authentication/sign-in/password-reset.html" class="link-primary fs-6 fw-bold">Forgot Password ?</a> -->
 								<!--end::Link-->
 							</div>
 							<!--end::Wrapper-->
@@ -87,22 +91,6 @@
 								<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
 							</button>
 							<!--end::Submit button-->
-							<!--begin::Separator-->
-							<div class="text-center text-muted text-uppercase fw-bold mb-5">or</div>
-							<!--end::Separator-->
-							<!--begin::Google link-->
-							<a href="#" class="btn btn-flex flex-center btn-light btn-lg w-100 mb-5">
-							<img alt="Logo" src="{{ asset('assets/media/svg/brand-logos/google-icon.svg')}}" class="h-20px me-3" />Continue with Google</a>
-							<!--end::Google link-->
-							<!--begin::Google link-->
-							<a href="#" class="btn btn-flex flex-center btn-light btn-lg w-100 mb-5">
-							<img alt="Logo" src="{{ asset('assets/media/svg/brand-logos/facebook-4.svg')}}" class="h-20px me-3" />Continue with Facebook</a>
-							<!--end::Google link-->
-							<!--begin::Google link-->
-							<a href="#" class="btn btn-flex flex-center btn-light btn-lg w-100">
-							<img alt="Logo" src="{{ asset('assets/media/svg/brand-logos/apple-black.svg') }}" class="theme-light-show h-20px me-3" />
-							<img alt="Logo" src="{{ asset('assets/media/svg/brand-logos/apple-black-dark.svg')}}" class="theme-dark-show h-20px me-3" />Continue with Apple</a>
-							<!--end::Google link-->
 						</div>
 						<!--end::Actions-->
 					</form>
@@ -114,11 +102,11 @@
 			<!--begin::Footer-->
 			<div class="d-flex flex-center flex-wrap fs-6 p-5 pb-0">
 				<!--begin::Links-->
-				<div class="d-flex flex-center fw-semibold fs-6">
+				<!-- <div class="d-flex flex-center fw-semibold fs-6">
 					<a href="https://keenthemes.com" class="text-muted text-hover-primary px-2" target="_blank">About</a>
 					<a href="https://devs.keenthemes.com" class="text-muted text-hover-primary px-2" target="_blank">Support</a>
 					<a href="https://keenthemes.com/products/saul-html-pro" class="text-muted text-hover-primary px-2" target="_blank">Purchase</a>
-				</div>
+				</div> -->
 				<!--end::Links-->
 			</div>
 			<!--end::Footer-->
